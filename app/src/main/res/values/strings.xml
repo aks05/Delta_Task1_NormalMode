@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Delta_Task1</string>
+    <string name="mfAmLabel">DeathGame</string>
+    <string name="amEtYOD">Set the Year of Death</string>
+    <string name="amEtGuess">Guess the year of Death</string>
+    <string name="amBtnSet">Set</string>
+    <string name="amBtnEnter">Guess</string>
+</resources>
