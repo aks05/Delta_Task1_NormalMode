@@ -106,6 +106,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         else if (Integer.parseInt(etYOD.getText().toString())>100 || Integer.parseInt(etYOD.getText().toString())==0 ) {
+            etYOD.getText().clear();
             setToast("Choose age from 1-100");
         }
 
@@ -126,14 +127,14 @@ public class MainActivity extends AppCompatActivity {
         }
 
         else if (Integer.parseInt(etGuess.getText().toString())>100 || Integer.parseInt(etGuess.getText().toString())==0 ) {
+            etGuess.getText().clear();
             setToast("Guess age from 1-100");
         }
 
         else {
             int Guess= Integer.parseInt(etGuess.getText().toString());
+            etGuess.getText().clear();
             Calculate(YOD, Guess);
         }
-
-        etGuess.getText().clear();
     }
 }
